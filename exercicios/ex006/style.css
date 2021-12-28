@@ -1,0 +1,28 @@
+@charset "UTF-8";
+* {
+    font-family: monospace;
+    color: #20434A;
+
+
+}
+
+body {
+    background-image: url(https://www.publicdomainpictures.net/pictures/80000/velka/japanese-waves-painting.jpg);
+
+}
+main {
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pdfeminine1-20c-nap.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=80beb269fa5e8c069ce1cfc3b0da20de);
+    box-shadow: 0px 10px 15px #20434A;
+    width: 580px;
+    padding: 5px; 
+    margin: auto;
+}
+h1 {
+    color: #20434A;
+    text-align: center;
+    font-size: 2em;
+}
+P {
+    text-align: center;
+    font-size: 1.04em;
+}

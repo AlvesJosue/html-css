@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Odibee+Sans&display=swap');
+
+:root {
+    --fonte-dfalt: 'Bebas Neue', sans-serif;
+    --fonte-logo: 'Odibee Sans', sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    background-color: #c5c9d27e;
+    
+}
+
+header h1 {
+    font-family: var(--fonte-logo);
+    font-size: 6em;
+    margin-bottom: 0px;
+    color: rgb(41, 41, 41);
+}
+
+header > p {
+    font-size: 1.3em;
+    padding-top: 0px;
+    color: rgb(75, 74, 74);
+}
+
+nav {
+    background-color: #c5c9d27e;
+}
+
+nav > a {
+    font-family: var(--fonte-dfalt);
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px;
+    color: rgb(75, 74, 74);
+}
+
+nav > a:hover {
+    color: white;
+}
+
+p {
+    font-family: var(--fonte-dfalt);
+}
+
+h2 {
+    font-family: var(--fonte-dfalt);
+}
+
+.img-w-txt {
+    text-align: justify;
+
+}
+
+.img-w-txt img {
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: none;
+    columns: 2;
+    margin: 0;
+}
+
+.categories {
+    display: inline-block;
+    background-color: #c5c9d27e;
+    text-align: center;
+    height: 100px;
+    width: 150px;
+    font-family: var(--fonte-logo);
+    font-size: 1.4EM;
+    margin: 10px;
+    padding-top: 10%;
+    font-weight: bold;
+}
+

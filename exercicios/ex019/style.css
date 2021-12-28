@@ -1,0 +1,25 @@
+@charset "UFT-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1 {
+    color: #266975;
+}
+h1#principal {
+    text-align: center;
+    background-color: #266975;
+    color: white;
+}
+h2 {
+    color: #4EDCF5;
+    text-align: right;
+    text-shadow: 1px 1px 2px black;
+}
+.subtitulos {
+    color: #3EAEC2;
+    font-size: 1.8em;
+    text-align: left;
+    text-shadow: 1px 1px 2px black;
+}
