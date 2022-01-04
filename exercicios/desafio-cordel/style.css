@@ -23,3 +23,62 @@ header h1 {
     font-weight: 400;
     font-size: 8vw;
 }
+
+header p {
+    font-family: sans-serif;
+}
+
+main {
+    background-color: white;
+    
+}
+
+
+
+main p {
+    font-family: var(--fonte-dfalt);
+    font-size: 7vw;
+    font-weight: 500;
+    padding: 10px;
+    margin: 40px;
+}
+
+#imagem1 {
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#imagem1 p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.425);
+    padding: 10px;
+    margin: 40px;
+}
+
+#imagem2 {
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#imagem2 p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.425);
+    padding: 10px;
+    margin: 40px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
+}
