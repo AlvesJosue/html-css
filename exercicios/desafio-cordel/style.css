@@ -20,6 +20,7 @@ header {
 
 header h1 {
     font-family: var(--fonte-titulo);
+    font-variant: small-caps;
     font-weight: 400;
     font-size: 8vw;
 }
@@ -37,16 +38,23 @@ main {
 
 main p {
     font-family: var(--fonte-dfalt);
-    font-size: 7vw;
+    font-size: 4.5vw;
     font-weight: 500;
     padding: 10px;
     margin: 40px;
 }
 
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+    
+}
+
 #imagem1 {
     background-image: url(pacote-d012/imagens/background001.jpg);
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: center ;
     background-size: cover;
     background-attachment: fixed;
     color: white;
